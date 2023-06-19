@@ -1,0 +1,5 @@
+- What: MVCC is MultiVersion Concurrency Control
+- Where: PostgreSQL
+- Why: PostgreSQL uses MVCC to control access to data in a database and ensures consistency while allow multiple transactions to happen simultaneously in the database
+- How: 
+  - MVCC creates several versions of a single database record, enabling various transactions to access different versions of one database record without conflicting with another
